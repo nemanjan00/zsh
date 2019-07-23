@@ -13,6 +13,8 @@ zplug 'cal2195/q'
 zplug 'zsh-users/zsh-autosuggestions'
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "supercrabtree/k"
+zplug "marzocchi/zsh-notify"
+zplug "plugins/z", from:oh-my-zsh
 
 zplug load
 
