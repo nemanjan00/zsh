@@ -14,3 +14,7 @@ icons[LEFT_SUBSEGMENT_SEPARATOR]=''
 icons[RIGHT_SUBSEGMENT_SEPARATOR]=''
 icons[TIME_ICON]=''
 
+# Aliases
+
+source ~/.zsh/aliases.zsh
+
