@@ -25,3 +25,7 @@ alias mpva="mpv --no-video"
 
 alias wttr="curl https://wttr.in/Belgrade"
 
+# sync
+
+alias s="~/.i3/sync.sh"
+

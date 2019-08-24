@@ -1,0 +1,28 @@
+---
+- hosts: all
+  remote_user: root
+  tasks:
+    - name: Update or clone zsh config
+      git:
+        repo: 'https://github.com/nemanjan00/zsh.git'
+        dest: ~/.zsh
+    - name: install zsh
+      package:
+        name: zsh
+        state: present
+    - name: Set zsh as default shell
+      user:
+        name: "{{ ansible_facts['env']['USER'] }}"
+        shell: /usr/bin/zsh
+    - name: Install zplug if not available
+      git:
+        repo: 'https://github.com/zplug/zplug.git'
+        dest: ~/.zplug
+    #- name: Install or update deps
+      #shell: zsh -c "source ~/.zsh/index.zsh ; LANG=en_US.UTF-8 zplug install"
+    - name: add couchbase host to properties
+      lineinfile:
+        path: ~/.zshrc
+        line: source ~/.zsh/index.zsh
+        regexp: "source ~/.zsh/index.zsh"
+        create: true
