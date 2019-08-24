@@ -29,3 +29,7 @@ alias wttr="curl https://wttr.in/Belgrade"
 
 alias s="~/.i3/sync.sh"
 
+# fucking
+
+alias fucking="sudo"
+
