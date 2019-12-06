@@ -7,7 +7,8 @@ alias spacevim="HOME=$SPACEVIM /usr/bin/vim"
 # Git
 
 alias add="git add"
-alias commit="git commit -S"
+alias commit="git commit"
+#alias commit="git commit -S"
 alias push="git push"
 alias init="hub init"
 alias push-all="git remote | xargs -L1 git push"
