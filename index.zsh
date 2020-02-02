@@ -20,3 +20,6 @@ export PCTL_PROXY_ADDRESS=127.0.0.1 PCTL_PROXY_PORT=8080
 
 source ~/.zsh/aliases.zsh
 
+setopt prompt_subst
+PS1='%n@%m $(shrink_path -f)>'
+

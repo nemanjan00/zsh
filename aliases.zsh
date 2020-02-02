@@ -1,9 +1,3 @@
-# Spacevim
-
-SPACEVIM=/home/$USER/spacevim
-mkdir -p $SPACEVIM
-alias spacevim="HOME=$SPACEVIM /usr/bin/vim" 
-
 # Git
 
 alias add="git add"
@@ -33,4 +27,6 @@ alias s="~/.i3/sync.sh"
 # fucking
 
 alias fucking="sudo"
+
+alias less="less -r"
 

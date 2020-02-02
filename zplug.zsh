@@ -10,6 +10,8 @@ zplug "lib/key-bindings", from:oh-my-zsh # support for key bindings
 
 zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme # powerline theme for zsh
 
+zplug "plugins/shrink-path", from:oh-my-zsh
+
 zplug "Tarrasch/zsh-autoenv" # autoloading .zshenv
 zplug "zsh-users/zsh-autosuggestions" # realtime autocomplete for zsh
 #zplug "zsh-users/zsh-syntax-highlighting" # syntax highlighting for zsh
