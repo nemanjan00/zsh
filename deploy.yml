@@ -20,7 +20,7 @@
         dest: ~/.zplug
     #- name: Install or update deps
       #shell: zsh -c "source ~/.zsh/index.zsh ; LANG=en_US.UTF-8 zplug install"
-    - name: add couchbase host to properties
+    - name: Install it into ~/.zshrc
       lineinfile:
         path: ~/.zshrc
         line: source ~/.zsh/index.zsh
