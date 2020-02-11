@@ -33,6 +33,10 @@ alias less="less -r"
 # IDE
 
 alias docker-dev='docker run -ti -v$(pwd):/work/project nemanjan00/dev zsh -ic "cd project ; tmux"'
-
 alias vim="nvim"
+alias v="nvim"
+
+# Firejail
+
+alias spotify="firejail spotify"
 
