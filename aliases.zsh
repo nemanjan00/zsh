@@ -40,3 +40,7 @@ alias v="nvim"
 
 alias spotify="firejail spotify"
 
+# Cat
+
+alias ccat='pygmentize -g'
+
