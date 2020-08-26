@@ -10,7 +10,7 @@ zplug "lib/key-bindings", from:oh-my-zsh # support for key bindings
 zplug "Tarrasch/zsh-autoenv" # autoloading .zshenv
 zplug "zsh-users/zsh-autosuggestions" # realtime autocomplete for zsh
 
-zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme # powerline theme for zsh
+zplug "romkatv/powerlevel10k", use:powerlevel9k.zsh-theme # powerline theme for zsh
 
 zplug "supercrabtree/k" # k - better ls -lah
 zplug "hlissner/zsh-autopair" # Auto pairs for zsh
