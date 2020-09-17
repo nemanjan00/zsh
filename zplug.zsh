@@ -17,5 +17,7 @@ zplug "hlissner/zsh-autopair" # Auto pairs for zsh
 zplug "ael-code/zsh-colored-man-pages"
 zplug "popstas/zsh-command-time"
 
+zplug "agkozak/zsh-z"
+
 zplug load
 
