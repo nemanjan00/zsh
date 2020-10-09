@@ -1,6 +1,7 @@
 # Git
 
 alias ls="ls --color"
+alias k="exa -lah --git --icons"
 
 alias add="git add"
 alias commit="git commit"
