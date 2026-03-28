@@ -47,3 +47,6 @@ alias spotify="firejail spotify"
 
 alias ccat='pygmentize -g'
 
+
+# Linear tasks
+alias lt='lr list -m'
